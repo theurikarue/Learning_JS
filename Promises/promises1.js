@@ -1,4 +1,4 @@
-hi            // What is a Promise?
+           // What is a Promise?
 // Imagine you asked your friend to bake you a cake. 
 //You don’t know exactly when the cake will be ready, 
 //but your friend promises to either give you a delicious cake or tell you if something went wrong. 
