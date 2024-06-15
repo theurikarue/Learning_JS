@@ -1,4 +1,4 @@
-            // What is a Promise?
+hi            // What is a Promise?
 // Imagine you asked your friend to bake you a cake. 
 //You don’t know exactly when the cake will be ready, 
 //but your friend promises to either give you a delicious cake or tell you if something went wrong. 
@@ -17,19 +17,19 @@
 
             // Creating a Promise
 let promise = new Promise((resolve, reject) => {
-    let cakeIsReady = true;
+    let cakeIsReady = true
             
     if (cakeIsReady) {
-        resolve("Here is your cake!");
+        resolve("Here is your cake!")
     } else {
-        reject("Sorry, I couldn't bake the cake.");
+        reject("Sorry, I couldn't bake the cake.")
                 }    
-});
+})
             
 promise.then((message) => {
-    console.log(message);  
+    console.log(message)
     }).catch((error) => {
-    console.log(error);
-    });
+    console.log(error)
+    })
             
             
